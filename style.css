@@ -1,0 +1,186 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+
+}
+header{
+	float: left;
+	background-color: white;
+	width: 100%;
+}
+.okvir{
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+	height: 100%;
+
+}
+.logo{
+	background-image:url(https://i.imgur.com/U8G4Skx.png);
+	    background-repeat:no-repeat;
+	       background-position: center; 
+	text-align: center;
+	font-size: 0px;
+	float: left;
+	width: 96%;
+	height: 100px;
+	padding: 4% 0% 0px 0%;	
+	margin: 10px 2% 0px 2%;
+	border-top: 3px solid black;
+}
+
+
+h4{
+	color:grey;
+}
+
+body{
+	background-color: lightgrey;
+}
+#clanak{
+	background-color: white;
+}
+
+nav{
+	width: 100%;
+}
+
+nav a, nav a:visited, nav a:active{
+	  text-transform: uppercase;
+	font-family: times;
+	  text-decoration: none;
+	  font-weight: bold;
+	color:black;
+	float: left;
+	text-align: center;
+	width: 23%;
+	background-color: white;
+	padding: 1% 1% 0% 1%;
+}
+
+nav a:hover{
+	  text-transform: uppercase;
+	font-family: times;
+	  text-decoration: underline;
+	  font-weight: bold;
+	color:darkblue;
+	text-align: center;
+	width: 23%;
+	padding: 1% 1% 0% 1%;
+}
+
+
+
+nav a[href*="admin"]{
+	text-align: right;
+}
+
+nav a[href*="admin"]:hover{
+	  text-transform: uppercase;
+	font-family: times;
+	  text-decoration: underline;
+	  font-weight: bold;
+	color:darkblue;
+	text-align: right;
+	width: 23%;
+	padding: 1% 1% 0% 1%;
+}
+
+
+nav a[href*="index"]{
+	text-align: left;
+}
+
+aside{
+	font-family: arial;
+	font-weight: bold;
+	float: left;
+	width: 13%;
+	margin-left: 2%;
+	/*background-color: yellow;*/
+	border-top:  8px solid black;
+
+}
+
+main{
+	line-height:160% ;
+	float: left;
+	width: 85%;
+	/*background-color: lightgreen;*/
+	margin-bottom: 1%;
+}
+article{
+	margin-left: 1%;
+	float: left;
+	width: 30%;
+	padding-left: 1%;
+			line-height:160% ;
+			background-color: white;
+
+	/*background-color: pink;*/
+}
+
+article img{
+	width: 100%;
+	max-height: 200px;
+
+}
+section{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+	padding-bottom: 20px;
+	font-size: 150%;
+	line-height:160% ;
+}
+
+#loginpage{
+	padding-top: 55px;
+	padding-bottom: 55px;
+	padding-left: 20%;
+	line-height:160% ;
+	background-color: white;
+	border: 8px solid black;
+	float: left;
+	width: 79%;
+	/*background-color: lightgreen;*/
+	margin-bottom: 1%;
+}
+#registracija, #prijava{
+	background-color: white;
+	width: 45%;	
+	float: left;
+	line-height:160% ;
+}
+.slika{
+	background-color: white;
+	width: 100%;
+		float: left;
+}
+.slika img{
+	width: 100%;
+	max-height: 900px;
+}
+
+footer{
+	clear: left;
+	text-align: center;
+	width: 100%;
+	background-color: grey;
+	position:relative;
+   bottom:0;
+   padding-top: 10px;
+   height:65px;   
+}
+
+#loginpage span{
+	width: 70%;
+	background-color: silver;
+}
+#loginpage input{
+	margin: 1%;
+	padding:1%;
+	border: 1px solid black;
+}
